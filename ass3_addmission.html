@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission Form</title>
+  <style>
+    body{
+    background-color: rgb(249, 250, 200);
+}
+  </style>
+</head>
+<body>
+  <h1>Admission Application Form</h1>
+  <p>Please fill in all required fields (*) with accurate information.</p>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Personal Details</legend>
+      <label for="firstName">First Name *</label><br>
+      <input id="firstName" name="firstName" type="text" required><br><br>
+
+      <label for="lastName">Last Name *</label><br>
+      <input id="lastName" name="lastName" type="text" required><br><br>
+
+      <label for="dob">Date of Birth *</label><br>
+      <input id="dob" name="dob" type="date" required><br><br>
+
+      <label for="gender">Gender *</label><br>
+      <select id="gender" name="gender" required>
+        <option value="">Select…</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select><br><br>
+
+      <label for="nationality">Nationality *</label><br>
+      <input id="nationality" name="nationality" type="text" required><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Contact Details</legend>
+      <label for="email">Email *</label><br>
+      <input id="email" name="email" type="email" required><br><br>
+
+      <label for="phone">Mobile Number *</label><br>
+      <input id="phone" name="phone" type="tel" required><br><br>
+
+      <label for="address">Current Address *</label><br>
+      <textarea id="address" name="address" required></textarea><br><br>
+
+      <label for="city">City *</label><br>
+      <input id="city" name="city" type="text" required><br><br>
+
+      <label for="state">State *</label><br>
+      <input id="state" name="state" type="text" required><br><br>
+
+      <label for="pincode">PIN Code *</label><br>
+      <input id="pincode" name="pincode" type="text" required><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Academic Details</legend>
+      <label for="lastSchool">Last Institution Attended *</label><br>
+      <input id="lastSchool" name="lastSchool" type="text" required><br><br>
+
+      <label for="passingYear">Year of Passing *</label><br>
+      <input id="passingYear" name="passingYear" type="number" required><br><br>
+
+      <label for="percentage">Aggregate (%) *</label><br>
+      <input id="percentage" name="percentage" type="number" required><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Program Selection</legend>
+      <label for="program">Program Applying For *</label><br>
+      <select id="program" name="program" required>
+        <option value="">Select…</option>
+        <option>B.Tech</option>
+        <option>MCA</option>
+        <option>M.Tech</option>
+        <option>MBA</option>
+        <option>Ph.D.</option>
+      </select><br><br>
+
+      <label for="branch">Specialization / Branch</label><br>
+      <input id="branch" name="branch" type="text"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Declaration</legend>
+      <input id="agree" name="agree" type="checkbox" required>
+      <label for="agree">I hereby declare that the information provided above is true and correct. *</label><br><br>
+
+      <label for="place">Place</label><br>
+      <input id="place" name="place" type="text"><br><br>
+
+      <label for="date">Date</label><br>
+      <input id="date" name="date" type="date"><br><br>
+    </fieldset>
+
+    <input type="reset" value="Clear">
+    <input type="submit" value="Submit Application">
+  </form>
+</body>
+</html>

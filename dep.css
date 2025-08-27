@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(249,250,200);
+}
+div{
+    
+    border: 3px solid black;
+    border-radius: 10%;
+    margin: 100px;
+    height: 500px;
+    width: 500px;
+    margin-left: 500px
+    ;
+}
+h4{
+    text-decoration: double;
+    text-align: center;
+}
